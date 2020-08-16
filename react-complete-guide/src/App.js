@@ -4,6 +4,8 @@ import Person from './Person/Person';
 
 import './App.css';
 
+import UserInput from './assignment/UserInput';
+
 class App extends Component {
   state = {
     persons: [
@@ -48,6 +50,8 @@ class App extends Component {
         <p>{this.state.messege1}</p>
 
         <p>{this.state.messege2}</p>
+
+        <UserInput></UserInput>
       </div>
     );
   }
