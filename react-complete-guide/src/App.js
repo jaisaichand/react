@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import ConditionalRender from './ConditionalRender';
+
 import Person from './Person/Person';
 
 import './App.css';
@@ -52,6 +54,8 @@ class App extends Component {
         <p>{this.state.messege2}</p>
 
         <UserInput></UserInput>
+        <hr />
+        <ConditionalRender />
       </div>
     );
   }
