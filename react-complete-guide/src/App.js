@@ -4,6 +4,8 @@ import ConditionalRender from './ConditionalRender';
 
 import Person from './Person/Person';
 
+import PersonsIterate from './Person/PersonsIterate'
+
 import './App.css';
 
 import UserInput from './assignment/UserInput';
@@ -56,6 +58,11 @@ class App extends Component {
         <UserInput></UserInput>
         <hr />
         <ConditionalRender />
+        <br />
+        <br />
+        <PersonsIterate />
+        <br />
+        <br />
       </div>
     );
   }
