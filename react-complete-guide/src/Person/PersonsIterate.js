@@ -3,26 +3,28 @@ import React, { Component } from 'react'
 export class PersonsIterate extends Component {
     state = {
         persons: [
-            { name: 'jai', age: 22 },
-            { name: 'max', age: 28 },
-            { name: 'manu', age: 29 }
+            {id:'sery5', name: 'jai', age: 22 },
+            {id:'s46', name: 'max', age: 28 },
+            {id:'dtyui6', name: 'manu', age: 29 }
         ]
     }
     render() {
         return (
             <div className="gil">
                 <div>
+                    <ul>
                     {
                         this.state.persons.map((person) => {
                             return (
-                                <ul>
-                                    <li>
+                                
+                                    <li key={person.id}>
                                         {person.name} - {person.age}
                                     </li>
-                                </ul>
+                                
                             )
                         })
                     }
+                    </ul>
                 </div>
             </div>
         )

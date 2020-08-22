@@ -4,6 +4,8 @@ import ConditionalRender from './ConditionalRender';
 
 import Person from './Person/Person';
 
+import Assignmenttwo from './assignmenttwo/Assignmenttow';
+
 import PersonsIterate from './Person/PersonsIterate'
 
 import './App.css';
@@ -63,6 +65,7 @@ class App extends Component {
         <PersonsIterate />
         <br />
         <br />
+        <Assignmenttwo />
       </div>
     );
   }
